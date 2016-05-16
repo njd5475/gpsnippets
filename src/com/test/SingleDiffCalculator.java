@@ -1,6 +1,6 @@
 package com.test;
 
-public class FromObjectsCalculator extends DistanceCalculator {
+public class SingleDiffCalculator extends DistanceCalculator {
 
 	public double calculateDistance(Position object1, Position object2) {
 		double diffX = object1.x - object2.x;
